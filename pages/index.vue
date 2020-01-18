@@ -1,5 +1,7 @@
 <template>
-  <div class="bg-red-600 min-h-screen font-sans">
+  <div
+    class="bg-red-600 min-h-screen font-sans absolute w-full overflow-hidden"
+  >
     <div>
       <div class="fixed text-gray-200 top-0 z-30 pl-2">
         <h1
@@ -18,7 +20,7 @@
         <img
           :data-src="'~/assets/images/neckkisses.jpg'"
           :data-srcset="require('~/assets/images/neckkisses.jpg').srcSet"
-          class="lazyload fixed mr-10 sm:mr-48 right-0 bottom-0 mb-10 w-auto"
+          class="lazyload fixed -mr-5 sm:mr-48 right-0 top-0 sm:top-auto mt-12 sm:mt-0 sm:bottom-0 mb-10 w-auto"
           style="max-height: 66vh;"
         />
       </div>
@@ -45,8 +47,9 @@
             ross@rosshead.com
           </a>
         </div>
-        <div class="pl-3">
-          Studio C/1, Bow Arts, 183 Bow Rd, London, E3 2SJ
+        <div class="pl-3 text-md sm:text-xl">
+          <span class="block md:inline">Studio C/1, Bow Arts, 183 Bow Rd, </span
+          ><span class="block md:inline">London, E3 2SJ</span>
         </div>
       </div>
     </div>
