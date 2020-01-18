@@ -62,8 +62,13 @@ export default {
     quality: 85 // 85 is default. Tweak this if you need to
   },
   webfontloader: {
-    google: {
-      families: ['Lato:400,900'] // Loads Lato font with weights 400 and 700
+    custom: {
+      families: ['Lato:n4,n9'],
+      urls: [
+        // for each Google Fonts add url + options you want
+        // here add font-display option
+        'https://fonts.googleapis.com/css?family=Lato:400,900&display=swap'
+      ]
     }
   }
 }
