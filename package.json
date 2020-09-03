@@ -20,7 +20,7 @@
     }
   },
   "dependencies": {
-    "lazysizes": "^5.2.0",
+    "lazysizes": "^5.2.1",
     "nuxt": "^2.0.0",
     "nuxt-responsive-loader": "^2.0.1",
     "nuxt-webfontloader": "^1.1.0"
